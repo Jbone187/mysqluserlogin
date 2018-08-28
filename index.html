@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Web Request Mysql</h2>
+<!--
+ <button id="btn">Create Json File</button> 
+ <button id="btn2">Get Data</button>
+
+ <p id="obj"></p>
+ -->
+ <br>
+ <br>
+ <h2>Create a Account</h2>
+ <form  action="/create" method="POST">
+    E-mail:
+        <input type="email" name="email">
+    Password:
+    <input type="text" name="password">
+    <br>
+    <input type="submit" value="Create Account">
+  </form> 
+  <br>
+  <br>
+  <br>
+  <h2>Login</h2>
+  <form  action="/login" method="POST">
+        E-mail:
+            <input type="email" name="email">
+        Password:
+        <input type="text" name="password">
+        <br>
+        <input type="submit" value="Login Account">
+      </form> 
+
+<script> 
+/*
+document.getElementById("btn").addEventListener("click", run);
+
+document.getElementById("btn2").addEventListener("click", run2);
+
+
+function run(){
+fetch("http://localhost:3000",{
+        method: "POST",
+        //what ever data you want to post with key value pair        
+        }).then( (response) => { 
+        //do something awesome that makes the world a better place
+        
+        });
+};
+
+function run2(){
+        fetch("http://localhost:3000/test.json").then(function(response) { 
+	// Convert to JSON
+	return response.json();
+}).then(function(json) {
+
+    console.log(json); 
+
+    let jsonData = JSON.stringify(json, null, "\t");
+
+
+    document.getElementById("obj").innerHTML = jsonData;
+});
+};
+
+*/
+</script>
+
+
+</body>
+</html>
