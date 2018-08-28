@@ -1,2 +1,2 @@
 # mysqluserlogin
-Simple db mysql login page
+Simply Nodejs - Express - Mysql - Bcrypt user creation and login
